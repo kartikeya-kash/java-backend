@@ -5,7 +5,7 @@ class Hello
         // data types
         int n1 = 9;
         short n2 = 2;
-        long n3 = 923423;
+        long n3 = 923423l; // put l after the data
         byte n4 = 122;
 
         double  n5 = 8.3;
