@@ -2,12 +2,12 @@ class Hello
 {
     public static void main (String args[])
     {
-        //literals 
-        int num1 = 0b0101; // to store in binary
-        int num2 = 0x7E; // to store in hexa
-        System.out.println(num1);
-        System.out.println(num2);
-        double num3 = 12e11;
-        System.out.println(num3);
+        // type conversion
+        // byte b = 258 error as out of range
+       // byte b = 127 ;
+        int a = 257; //works
+        byte k = (byte)(a); // will store a%range in k
+        System.out.println(k); 
+        
     }
 }
