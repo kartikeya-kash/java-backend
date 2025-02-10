@@ -7,5 +7,7 @@ class Hello
         int num2 = 0x7E; // to store in hexa
         System.out.println(num1);
         System.out.println(num2);
+        double num3 = 12e11;
+        System.out.println(num3);
     }
 }
